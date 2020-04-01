@@ -1,0 +1,83 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: pink;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    overflow:scroll;
+}
+
+header {
+    
+}
+
+#title {
+    text-align: center;
+    outline: 2px solid black;
+    width: 75vw;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10vh;
+    
+}
+
+.title2 {
+    font-size: 4vh;
+    text-decoration: underline;
+}
+
+#rules {
+    font-size: 2vh;
+}
+input {
+    display: none;
+}
+input[type=radio]:checked + img {
+box-shadow: -1px 0px 13px 4px rgba(0,0,0,0.5);
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: -1px 0px 4px 2px rgba(0,0,0,0.5);
+}
+
+button {
+    padding: 10px 22px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 2.5vh;
+}
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24) 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#roundResult {
+    /* visibility: hidden; */
+    font-size: 4vh;
+    border: 2px solid black;
+}
+#message {
+    margin-top: 2px;
+    margin-bottom: 10px;
+    font-size: 3vh;
+}
+
+#matchStats {
+    margin-bottom: auto;
+}
+
+p {
+    font-size: 2.5vh;
+}
