@@ -36,7 +36,7 @@ header {
 }
 
 #rules {
-    font-size: 2vh;
+    font-size: 3vh;
 }
 input {
     display: none;
@@ -64,7 +64,7 @@ button {
 }
 
 #roundResult {
-    /* visibility: hidden; */
+    visibility: hidden;
     font-size: 4vh;
     border: 2px solid black;
 }
@@ -80,4 +80,5 @@ button {
 
 p {
     font-size: 2.5vh;
+    margin: auto;
 }
