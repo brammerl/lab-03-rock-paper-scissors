@@ -2,6 +2,7 @@ import getRandomThrow from './getRandomThrow.js';
 import checkResults from './checkResult.js';
 
 const myButton = document.getElementById('fight');
+const myButtonTwo = document.getElementById('reset');
 const winSpan = document.getElementById('wins');
 const winLose = document.getElementById('message');
 const lossSpan = document.getElementById('losses');
@@ -46,4 +47,13 @@ myButton.addEventListener('click', () => {
         winLose.textContent = `YOU LOSE! Your oponent chose: ${compChoice}`;
     }
 
+});
+
+myButtonTwo.addEventListener('click', () => {
+    winTally = 0;
+    lossTally = 0;
+    drawTally = 0;
+
+    updateMatchStats();
+    makeVisible.style.visibility = 'hidden ';
 });
